@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+}
+
+input[type='text']{
+  height: 50px;
+  width: 400px;
+  background: rgba(255, 203,190, 0.7);
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.4rem;
+  outline: none;
+  color: #fff;
+  letter-spacing:0.1em;
+  margin-bottom: 20px;
+}
+
+.info{
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+  background: rgba(233,201,211,0.7);
+  font-size: 3rem;
+  color: yellow;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  font-size: 2.7rem;
+}
